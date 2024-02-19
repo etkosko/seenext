@@ -42,8 +42,7 @@ input:focus {
 }
 
 #contentContainer {
-    margin: 20px;
-    overflow-y: auto;
+    margin-right: 20px;
 }
 
 #contentContainer img {
@@ -161,4 +160,21 @@ svg {
     100% {
         background-position: 35% 35%
     }
+}
+
+main {
+
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    background-color: #0f0f0f;
+    border-radius: 6px;
+    box-shadow: 0 0 10px 0 #000;
 }
