@@ -1,22 +1,21 @@
 {
-  "name": "helo",
+  "name": "seenext",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "engines": {
-    "node": "14.x"
-  },
+  "engines":{ "node": "18.x" },
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Etk",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.6.7",
     "cors": "^2.8.5",
     "express": "^4.18.2",
+    "nodemon": "^3.0.3",
     "puppeteer": "^22.1.0"
   }
 }
